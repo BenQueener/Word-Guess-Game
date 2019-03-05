@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guess Game</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+</head>
+
+<body>
+<div class="bg">
+
+<div class="jumbotron">
+    <h1 class="display-4">Reveal the Autobot</h1>
+    <p class="lead">Type in Autobot names to reveal your team!</p>
+    <hr class="my-4">
+    <p> Wins: <span id="wins"> 0 </span></p>
+    <p> Autobot <span id="answer"> _____________</span></p>
+    <p> Guesses Remaining: <span id="guessesLeft"> 10 </span></p>
+    <p> Your guesses so far:<span id="guessesSofar"> ...nothing</span></p>
+  </div>
+
+  <!-- This displays the game to the user and gets dynamically updated by the javascript-->
+    <h3>Hint for TA :<span id="actualAnswer"></span></h3>
+
+
+  </div>
+</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
